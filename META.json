@@ -65,7 +65,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::MakeMaker::Highlander" : {
          "file" : "lib/Dist/Zilla/Plugin/MakeMaker/Highlander.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -80,7 +80,7 @@
          "web" : "https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_authority" : "cpan:DAGOLDEN"
 }
 

@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::MakeMaker::Highlander;
 # ABSTRACT: There can be only one
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use Moose 2;
 use List::AllUtils 'first';
@@ -20,8 +20,8 @@ sub setup_installer {
 
     my $insert = <<'HERE';
 if ( $] < 5.012
-    && $ENV{PERL_MM_OPT} !~ /(?:INSTALL_BASE|PREFIX)/
-    && ! grep { /INSTALL_BASE/ || /PREFIX/ } @ARGV
+  && ! ( $ENV{PERL_MM_OPT} && $ENV{PERL_MM_OPT} =~ /(?:INSTALL_BASE|PREFIX)/ )
+  && ! grep { /INSTALL_BASE/ || /PREFIX/ } @ARGV
 ) {
     $WriteMakefileArgs{UNINST} = 1;
 }
@@ -55,7 +55,7 @@ Dist::Zilla::Plugin::MakeMaker::Highlander - There can be only one
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

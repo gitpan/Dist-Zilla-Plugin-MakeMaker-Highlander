@@ -31,7 +31,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::MakeMaker::Highlander:
     file: lib/Dist/Zilla/Plugin/MakeMaker/Highlander.pm
-    version: 0.001
+    version: 0.002
 requires:
   Dist::Zilla::Role::InstallTool: 0
   List::AllUtils: 0
@@ -44,5 +44,5 @@ resources:
   bugtracker: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander/issues
   homepage: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander
   repository: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander.git
-version: 0.001
+version: 0.002
 x_authority: cpan:DAGOLDEN

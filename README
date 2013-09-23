@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::Plugin::MakeMaker::Highlander - There can be only one
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         # in dist.ini, *after* other MakeMaker plugins
