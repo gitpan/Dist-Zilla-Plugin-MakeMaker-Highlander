@@ -14,7 +14,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132620'
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132660'
 license: apache
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,7 +31,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::MakeMaker::Highlander:
     file: lib/Dist/Zilla/Plugin/MakeMaker/Highlander.pm
-    version: 0.002
+    version: 0.003
 requires:
   Dist::Zilla::Role::InstallTool: 0
   List::AllUtils: 0
@@ -44,5 +44,5 @@ resources:
   bugtracker: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander/issues
   homepage: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander
   repository: https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander.git
-version: 0.002
+version: 0.003
 x_authority: cpan:DAGOLDEN

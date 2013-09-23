@@ -4,7 +4,7 @@
       "David Golden <dagolden@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132620",
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132660",
    "license" : [
       "apache_2_0"
    ],
@@ -65,7 +65,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::MakeMaker::Highlander" : {
          "file" : "lib/Dist/Zilla/Plugin/MakeMaker/Highlander.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       }
    },
    "release_status" : "stable",
@@ -80,7 +80,7 @@
          "web" : "https://github.com/dagolden/Dist-Zilla-Plugin-MakeMaker-Highlander"
       }
    },
-   "version" : "0.002",
+   "version" : "0.003",
    "x_authority" : "cpan:DAGOLDEN"
 }
 

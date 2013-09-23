@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::Plugin::MakeMaker::Highlander - There can be only one
 
 VERSION
-    version 0.002
+    version 0.003
 
 SYNOPSIS
         # in dist.ini, *after* other MakeMaker plugins
@@ -20,6 +20,10 @@ DESCRIPTION
 
     This will result in warnings from old ExtUtils::MakeMaker, but appears
     to work nonetheless.
+
+    If a build system already accounts for ExtUtils::MakeMaker's
+    pathological bundling and "UNINST = 1" causes problems, the
+    "PERL_NO_HIGHLANDER" environment variable may be set to a true value.
 
 SUPPORT
   Bugs / Feature Requests
